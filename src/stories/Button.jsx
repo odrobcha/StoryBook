@@ -14,7 +14,9 @@ export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
       style={backgroundColor && { backgroundColor }}
       {...props}
     >
-      TEXT before{label}
+
+      {label}
+
     </button>
   );
 };
